@@ -1,0 +1,17 @@
+#my-button {
+    padding: 7px;
+    width: 10%;
+    background-color: $main;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+    outline:none;
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: 1.5px 1.5px 2px 1px rgba(0, 0, 0, 0.3);
+    }
+}
+
+

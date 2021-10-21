@@ -1,0 +1,52 @@
+.login {
+    background-color: $bgWhite;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 180px auto 1px;
+    width: 700px;
+
+    h3 {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        font-size: 1.5em;
+        opacity: 0.8;
+        text-align: center;
+    }
+
+    .text-input,
+    .password-input {
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-bottom: 15px;
+
+        label {
+            color: $medium;
+            margin-right: 5px;
+        }
+
+        .text-field,
+        .password-field {
+            padding: 3px 6px;
+            border: 1px solid $medium;
+            border-radius: 5px;
+            width: 250px;
+            outline: none;
+        }
+
+        .text-error,
+        .password-error {
+            color: $danger;
+            font-size: 0.8em;
+        }
+    }
+
+    #my-button {
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 20px;
+        width: 60%;
+    }
+}
+
+

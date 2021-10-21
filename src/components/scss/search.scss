@@ -1,0 +1,14 @@
+@import './button.scss';
+@import './input.scss';
+
+.search {
+    background-color: $bgWhite;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.search .form{
+    display: flex;
+    align-items: center;
+}

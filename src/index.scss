@@ -1,0 +1,26 @@
+@import './components/scss/_variable';
+@import './components/scss/list.scss';
+@import './components/scss/search.scss';
+@import './components/scss/login.scss';
+@import './components/scss/navbar.scss';
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body{
+  margin: 0;
+  font-family: Roboto; 
+  background-color: $bgColor;
+}
+
+.wrapper{
+  max-width: 960px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+
+
